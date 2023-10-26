@@ -7,7 +7,8 @@
 
 import Foundation
 
-enum Category : String {
+enum Category : String, CaseIterable, Identifiable {
+    var id: String {self.rawValue}
     case antipasto = "Antipasto"
     case primo = "Primo"
     case secondo = "Secondo"
@@ -37,7 +38,7 @@ struct Recipe : Identifiable{
 
 extension Recipe {
     static let all: [Recipe] = [
-       Recipe(
+        Recipe(
             name: "Ravioli al vapore",
             image: "dumplings",
             description: "I ravioli al vapore cinesi sono deliziosi bocconcini di pasta sottile ripieni di ingredienti come carne, verdure o gamberi, cotti al vapore per creare una texture morbida e un sapore ricco. Sono un piatto tradizionale della cucina cinese, apprezzati per la loro leggerezza e delicatezza.",
