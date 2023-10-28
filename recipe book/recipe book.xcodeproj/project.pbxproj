@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E82F46C2AEDB9DB006A4E2B /* AddRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E82F46B2AEDB9DB006A4E2B /* AddRecipeView.swift */; };
 		3ED97D3A2AE40C0900EE1159 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED97D392AE40C0900EE1159 /* HomeView.swift */; };
 		3ED97D3C2AE40C1E00EE1159 /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED97D3B2AE40C1E00EE1159 /* CategoriesView.swift */; };
 		3ED97D3E2AE40C2F00EE1159 /* NewRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED97D3D2AE40C2F00EE1159 /* NewRecipeView.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E82F46B2AEDB9DB006A4E2B /* AddRecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRecipeView.swift; sourceTree = "<group>"; };
 		3ED97D392AE40C0900EE1159 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		3ED97D3B2AE40C1E00EE1159 /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
 		3ED97D3D2AE40C2F00EE1159 /* NewRecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRecipeView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 		3E82F46A2AEDA9E1006A4E2B /* Details */ = {
 			isa = PBXGroup;
 			children = (
+				3E82F46B2AEDB9DB006A4E2B /* AddRecipeView.swift */,
 			);
 			path = Details;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 			files = (
 				3ED97D422AE40CBB00EE1159 /* SettingsView.swift in Sources */,
 				3ED97D3C2AE40C1E00EE1159 /* CategoriesView.swift in Sources */,
+				3E82F46C2AEDB9DB006A4E2B /* AddRecipeView.swift in Sources */,
 				3EFF32962AE7B469001978FF /* RecipeCard.swift in Sources */,
 				3ED97D3E2AE40C2F00EE1159 /* NewRecipeView.swift in Sources */,
 				3EFF329A2AE7CB8B001978FF /* RecipeView.swift in Sources */,

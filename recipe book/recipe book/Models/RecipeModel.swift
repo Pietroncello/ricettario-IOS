@@ -17,6 +17,7 @@ enum Category : String, CaseIterable, Identifiable {
     case salse = "Salse"
 }
 enum Continent : String {
+    var id: String {self.rawValue}
     case europa = "Europa"
     case asia = "Asia"
     case africa = "Africa"

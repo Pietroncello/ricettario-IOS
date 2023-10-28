@@ -20,7 +20,7 @@ struct TabBar: View {
                     Label("Categories", systemImage: "camera.filters")
                 }
             
-            NewRecipeView()
+            AddRecipeView()
                 .tabItem {
                     Label("Add", systemImage: "plus")
                 }
