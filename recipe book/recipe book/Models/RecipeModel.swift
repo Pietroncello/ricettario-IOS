@@ -122,7 +122,7 @@ extension Recipe {
            ingredients: "200g sovraccoscia di pollo\n Q.B sale\n Q.B pepe\n 150g panko\n 3 uova\n",
            directions: "Per preparare il pollo karaage, taglia il pollo a bocconcini, marinalo in salsa di soia, zenzero e aglio, quindi impanalo in fecola di patate e fritto fino a doratura. Il risultato è un pollo croccante e saporito, perfetto come antipasto o contorno." ,
            time: 30 ,
-           category: "Controno",
+           category: "Contorno",
            continent: "Asia"
             
         ),
@@ -135,7 +135,7 @@ extension Recipe {
             ingredients: "200g di farina di glutinoso riso\n 2 cucchiai di zucchero a velo\n 2 cucchiai di polvere di tè verde matcha\n Crema di tè verde (per il ripieno)\n",
             directions: "Per preparare i mochi al tè verde, mescola la farina di glutinoso riso, lo zucchero a velo e il tè verde matcha, quindi riempi ogni mochi con la crema di tè verde e forma piccoli quadrati. Servi e gustali!" ,
             time: 45,
-            category: "Dolci",
+            category: "Dolce",
             continent: "Asia"
             
             
@@ -148,7 +148,7 @@ extension Recipe {
             ingredients: "250g di mascarpone\n 3 uova\n 100g di zucchero\n Savoiardi\n Caffè forte\n Cacao in polvere\n",
             directions: "Per preparare il tiramisù, mescola il mascarpone, le uova e lo zucchero. Inzuppa i savoiardi nel caffè, quindi alterna strati di biscotti e crema nel tuo recipiente. Infine, spolvera con cacao in polvere e lascia raffreddare in frigorifero prima di servire." ,
             time: 30,
-            category: "Dolci",
+            category: "Dolce",
             continent: "Europa"
             
             
@@ -162,7 +162,7 @@ extension Recipe {
             ingredients: "120 ml di salsa di soia\n 60 ml di mirin\n 60 ml di sake\n 3 cucchiai di zucchero",
             directions: "Per preparare la salsa Teriyaki, mescola la salsa di soia, il mirin, il sake e lo zucchero in una pentola. Cuoci a fuoco medio-basso fino a quando la salsa si addensa. Lasciala raffreddare prima di utilizzarla come condimento.",
             time: 20 ,
-            category: "Salsa",
+            category: "Salse",
             continent: "Asia"
             
             
@@ -176,7 +176,7 @@ extension Recipe {
             ingredients: "50g di foglie di basilico\n 30g di pinoli\n 2 spicchi d'aglio\n 50g di formaggio grana\n 150 ml di olio d'oliva",
             directions: "Per preparare il pesto genovese, frulla basilico, pinoli, aglio e formaggio grana in un mixer. Aggiungi gradualmente l'olio d'oliva fino a ottenere una consistenza cremosa. Usa questa salsa per condire la pasta o come base per antipasti.",
             time: 15,
-            category: "Salsa",
+            category: "Salse",
             continent: "Europa"
             
             

@@ -20,13 +20,14 @@ struct RecipeCard: View {
                     .frame(width: 150, height: 140)
                     .cornerRadius(20)
                     .padding(10)
-                    .shadow(color: .blue,radius: 5)
+                    .shadow(color: .black,radius: 5)
                 
             }
             VStack(alignment: .leading){
                 Text(recipe.name)
-                    .fontWeight(.bold)
-                    .font(.title)
+                    .fontWeight(.semibold)
+                    .font(.title2)
+                    .foregroundStyle(Color.accent)
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .lineLimit(2, reservesSpace: true)
                     .fixedSize(horizontal: false, vertical: true)
@@ -34,19 +35,26 @@ struct RecipeCard: View {
                 
                 HStack{
                     Image(systemName: "timer")
+                        .foregroundStyle(.black)
                     Text(String(recipe.time) + "min")
+                        .foregroundStyle(.black)
                 }
                 .frame(maxWidth: .infinity, alignment: .leading)
-                Text(recipe.continent)
-                    .frame(maxWidth: .infinity, alignment: .leading)
-                
-                
+                HStack{
+                    Image(systemName: "flag.fill")
+                        .foregroundStyle(.black)
+                    Text(recipe.continent)
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                        .foregroundStyle(.black)
+                    
+                }
             }
             
             .frame(maxWidth: 150)
             
         }
-        
+        .background(Color.main)
+        .cornerRadius(20)
         
     }
 }

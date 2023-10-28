@@ -50,11 +50,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E82F46A2AEDA9E1006A4E2B /* Details */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
 		3ED97D332AE404BC00EE1159 /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				3ED97D362AE404DD00EE1159 /* Components */,
-				3ED97D352AE404D500EE1159 /* Details */,
 				3ED97D342AE404CB00EE1159 /* Main */,
 			);
 			path = Views;
@@ -72,13 +78,6 @@
 				3EFF32992AE7CB8B001978FF /* RecipeView.swift */,
 			);
 			path = Main;
-			sourceTree = "<group>";
-		};
-		3ED97D352AE404D500EE1159 /* Details */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Details;
 			sourceTree = "<group>";
 		};
 		3ED97D362AE404DD00EE1159 /* Components */ = {
@@ -124,6 +123,7 @@
 		3EFD07BC2AE321700017ECF4 /* recipe book */ = {
 			isa = PBXGroup;
 			children = (
+				3E82F46A2AEDA9E1006A4E2B /* Details */,
 				3EFD07BD2AE321700017ECF4 /* recipe_bookApp.swift */,
 				3ED97D382AE4054200EE1159 /* Models */,
 				3ED97D372AE4050300EE1159 /* ViewModels */,

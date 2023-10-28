@@ -13,9 +13,8 @@ struct HomeView: View {
             ScrollView {
                 VStack {
                     RecipeList(recipes: Recipe.all)
-                    RecipeList(recipes: Recipe.all)
                 }
-            }
+            }.navigationTitle("Your Recipes")
             
         }
     }

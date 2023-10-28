@@ -23,7 +23,7 @@ struct RecipeView: View {
                     .multilineTextAlignment(.center)
                     .foregroundColor(.white)
                     .padding()
-                    .background(Color.orange)
+                    .background(Color.accent)
                     .cornerRadius(10)
                     
                 HStack{
@@ -45,7 +45,7 @@ struct RecipeView: View {
                                 .font(.headline)
                                 .foregroundStyle(Color.white)
                                 .padding(10)
-                                .background(Color.orange)
+                                .background(Color.accent)
                                 .cornerRadius(8)
                                 
                             
@@ -58,7 +58,7 @@ struct RecipeView: View {
                                 .font(.headline)
                                 .foregroundStyle(Color.white)
                                 .padding(10)
-                                .background(Color.orange)
+                                .background(Color.accent)
                                 .cornerRadius(8)
                             
                             Text(recipe.directions)

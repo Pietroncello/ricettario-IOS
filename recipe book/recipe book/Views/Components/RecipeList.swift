@@ -10,8 +10,8 @@ import SwiftUI
 struct RecipeList: View {
     var recipes: [Recipe]
     var body: some View {
-        ScrollView(.horizontal, showsIndicators: false){
-            HStack{
+        ScrollView(.vertical, showsIndicators: false){
+            VStack{
                 ForEach(recipes) { recipe in
                     NavigationLink(destination: RecipeView(recipe: recipe)){
                         RecipeCard(recipe: recipe)
